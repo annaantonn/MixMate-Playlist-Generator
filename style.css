@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Song {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.Song img {
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.Song .SongInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.Song .SongName {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.Song .SongArtist {
+  font-size: 16px;
+  margin: 0;
+}
